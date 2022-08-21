@@ -166,6 +166,9 @@ header {
   position: sticky;
   top: 0%;
 }
+.navegacion{
+  color: #fff;
+}
 .logo {
   color: #fff;
   position: relative;
@@ -309,7 +312,7 @@ header {
   font-size: 50px;
 }
 
-.contenedor div.izquierda input {
+/*.contenedor div.izquierda input {
   font-size: 20px;
   margin-right: 20px;
   padding: 5px;
@@ -319,7 +322,7 @@ header {
   color: #fff;
   transition: width 3s;
   transition-delay: 1s;
-}
+}*/
 .contenedorBotones {
   display: flex;
 }
@@ -377,9 +380,9 @@ header {
 }
 
 /* ----------------------------------------------- Seccion productos otra pagina -------------------------------------------------------- */
-/*.ProductosSeccionProductos {
+.ProductosSeccionProductos {
   margin: 100px;
-}*/
+}
 
 .ProductosSeccionProductos h2 {
   font-size: 70px;
@@ -388,7 +391,7 @@ header {
 }
 
 .ProductosSeccionProductos h3 {
- /* font-size: 50px;*/
+  font-size: 50px;
   color: #fff;
   text-align: center;
 }
